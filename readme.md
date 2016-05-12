@@ -2,9 +2,12 @@
 Exemple ( non exhaustif ) de test unitaire et de couverture de code
 
 ## Installation
-npm install -g mocha -- --
-npm install -g grunt-cli -- --
--- --
+npm install -g mocha
+
+&nbsp;
+npm install -g grunt-cli
+
+&nbsp;
 npm install
 
 ## Lancer les tests unitaires
