@@ -76,7 +76,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-env');
 
     // tasks
-    grunt.registerTask('test', ['jshint','mochaTest:unit']);
+    grunt.registerTask('unit', ['jshint','mochaTest:unit']);
     grunt.registerTask('coverage', ['clean', 'env:coverage',
         'instrument', 'mochaTest:unit', 'storeCoverage', 'makeReport']);
 
